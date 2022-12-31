@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="player">
+        <header>
+            <img src="img/radio.webp" alt="" srcset="" >
+            <h2>Live Radio</h2>
+            <p id="audio_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, tenetur.</p>
+        </header>
+
+        <section id="content">
+            <section id="buttons">
+                <img src="img/back.png" id="back" alt="" srcset="">
+                <img src="img/play.png " id="play_pause" alt="" srcset="">
+                <img src="img/next.png" id="next" alt="" srcset="">
+                <!-- hwa daf File llAudio hna flsrc  -->
+                <audio id="audio" src="audio/audio.mp3" ></audio>
+            </section>
+
+            <section id="volum">
+                <h2>الصوت</h2>
+                <input type="range" name="" id="vol" class="inp">
+                <h2>السرعه</h2>
+                <input type="range" name="" id="speed" class="inp" max="200" min="0">
+            </section>
+            <section id="color">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+            </section>
+        </section>
+    </main> 
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/colors.js"></script>
+</body>
+</html>

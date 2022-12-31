@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+main{
+    width: 360px;
+    /* to center my dev */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+
+header img{
+    height: 140px;
+    margin-top: 20px;
+}
+header h2{
+    margin: 20px;
+    font-size: 30px;
+}
+header p{
+    font-size: 22px;
+}
+#content{
+    background-color: aliceblue;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+}
+#volum{
+    text-align: center;
+}
+#volum input{
+    width: 100%;
+}
+.inp{
+    -webkit-appearance: none;
+    background-color: aliceblue;
+    height: 4px;
+    margin: 0%;
+}
+/* to change slider icon */
+.inp::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: orange;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+h2{
+    margin: 15px 0;
+}
+#color{
+    text-align: center;
+    margin-top: 20px;
+}
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#color1{
+    background: gray;
+}
+#color2{
+    background: orange;
+}
+#color3{
+    background: burlywood;
+}
+#color4{
+    background: royalblue;
+}
